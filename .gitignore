@@ -3,3 +3,7 @@ __pycache__
 .hypothesis/
 build/
 reports/
+.idea
+.openzeppelin
+
+node_modules

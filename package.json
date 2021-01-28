@@ -1,0 +1,18 @@
+{
+  "name": "multi-rewards",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "truffle compile --all",
+    "migrate": "truffle compile --all && truffle migrate",
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^3.3.0",
+    "@openzeppelin/truffle-upgrades": "^1.5.0",
+    "truffle": "^5.1.63",
+    "truffle-hdwallet-provider": "^1.0.17"
+  },
+  "devDependencies": {
+    "truffle-typings": "^1.0.8"
+  }
+}
