@@ -1,4 +1,4 @@
-pragma solidity ^0.6.11;
+pragma solidity >=0.5.17 <0.8.0;
 
 contract Configurable {
     mapping (bytes32 => uint) internal config;
